@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-12T22:41:23 IST" name="Suite" finished-at="2025-06-12T22:41:32 IST" duration-ms="8890">
+    <groups>
+    </groups>
+    <test started-at="2025-06-12T22:41:23 IST" name="Test" finished-at="2025-06-12T22:41:32 IST" duration-ms="8890">
+      <class name="HttpRequests.AllHttpRequestsCombinedTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:HttpRequests.AllHttpRequestsCombinedTest@42a48628]" started-at="2025-06-12T22:41:23 IST" name="setup" finished-at="2025-06-12T22:41:24 IST" duration-ms="1468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="UserTest_Post()[pri:1, instance:HttpRequests.AllHttpRequestsCombinedTest@42a48628]" started-at="2025-06-12T22:41:24 IST" name="UserTest_Post" finished-at="2025-06-12T22:41:27 IST" duration-ms="3205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserTest_Post -->
+        <test-method signature="UserTest_Get()[pri:2, instance:HttpRequests.AllHttpRequestsCombinedTest@42a48628]" started-at="2025-06-12T22:41:27 IST" name="UserTest_Get" finished-at="2025-06-12T22:41:28 IST" depends-on-methods="HttpRequests.AllHttpRequestsCombinedTest.UserTest_Post" duration-ms="518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserTest_Get -->
+        <test-method signature="UserTest_Put()[pri:3, instance:HttpRequests.AllHttpRequestsCombinedTest@42a48628]" started-at="2025-06-12T22:41:28 IST" name="UserTest_Put" finished-at="2025-06-12T22:41:28 IST" depends-on-methods="HttpRequests.AllHttpRequestsCombinedTest.UserTest_Post" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserTest_Put -->
+        <test-method signature="UserTest_Delete()[pri:4, instance:HttpRequests.AllHttpRequestsCombinedTest@42a48628]" started-at="2025-06-12T22:41:28 IST" name="UserTest_Delete" finished-at="2025-06-12T22:41:29 IST" depends-on-methods="HttpRequests.AllHttpRequestsCombinedTest.UserTest_Post" duration-ms="532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserTest_Delete -->
+        <test-method signature="createUserDataDriven(java.lang.String,java.lang.String)[pri:5, instance:HttpRequests.AllHttpRequestsCombinedTest@42a48628]" started-at="2025-06-12T22:41:29 IST" name="createUserDataDriven" data-provider="userData" finished-at="2025-06-12T22:41:30 IST" duration-ms="543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[neeha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[engineer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserDataDriven -->
+        <test-method signature="createUserDataDriven(java.lang.String,java.lang.String)[pri:5, instance:HttpRequests.AllHttpRequestsCombinedTest@42a48628]" started-at="2025-06-12T22:41:30 IST" name="createUserDataDriven" data-provider="userData" finished-at="2025-06-12T22:41:30 IST" duration-ms="459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[harika]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[developer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserDataDriven -->
+        <test-method signature="createUserDataDriven(java.lang.String,java.lang.String)[pri:5, instance:HttpRequests.AllHttpRequestsCombinedTest@42a48628]" started-at="2025-06-12T22:41:30 IST" name="createUserDataDriven" data-provider="userData" finished-at="2025-06-12T22:41:31 IST" duration-ms="481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aheen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[analyst]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserDataDriven -->
+        <test-method signature="responseTimeValidation()[pri:6, instance:HttpRequests.AllHttpRequestsCombinedTest@42a48628]" started-at="2025-06-12T22:41:31 IST" name="responseTimeValidation" finished-at="2025-06-12T22:41:31 IST" duration-ms="490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responseTimeValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:HttpRequests.AllHttpRequestsCombinedTest@42a48628]" started-at="2025-06-12T22:41:31 IST" name="tearDown" finished-at="2025-06-12T22:41:32 IST" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- HttpRequests.AllHttpRequestsCombinedTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
