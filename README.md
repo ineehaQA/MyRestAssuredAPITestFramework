@@ -17,6 +17,7 @@ This repository contains a comprehensive API test automation framework built usi
 ✔️ Easy integration with CI/CD tools like Jenkins or GitHub Actions
 
 🔧 Technologies Used
+
 Java
 
 Rest Assured
