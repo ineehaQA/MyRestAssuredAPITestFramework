@@ -3,6 +3,7 @@
 This repository contains a comprehensive API test automation framework built using Rest Assured, TestNG, and Java. It is designed to test RESTful web services by validating HTTP methods like POST, GET, PUT, and DELETE with full assertion coverage and schema validation.
 
 🚀 Features
+
 ✔️ End-to-End test coverage for all major HTTP methods
 
 ✔️ Modular design using TestNG and DataProviders
